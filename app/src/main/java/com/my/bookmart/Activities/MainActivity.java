@@ -1,8 +1,10 @@
-package com.my.bookmart;
+package com.my.bookmart.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.my.bookmart.R;
 
 public class MainActivity extends AppCompatActivity {
 
