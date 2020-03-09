@@ -1,4 +1,4 @@
-package com.my.bookmart.Activities;
+package com.my.bookmart.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

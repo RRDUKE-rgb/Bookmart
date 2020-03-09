@@ -1,4 +1,4 @@
-package com.my.bookmart.Activities;
+package com.my.bookmart.intro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.my.bookmart.R;
+import com.my.bookmart.activities.MainActivity;
 
 public class LoginActivity extends AppCompatActivity {
     private EditText email,password;
@@ -101,7 +102,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void checkEmailandPassword() {
         if (email.getText().toString().matches(emailPattern)) {
-            Intent mainIntent = new Intent(this,MainActivity.class);
+            Intent mainIntent = new Intent(this, MainActivity.class);
             startActivity(mainIntent);
 
         } else {

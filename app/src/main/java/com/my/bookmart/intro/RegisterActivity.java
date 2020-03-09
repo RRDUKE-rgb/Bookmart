@@ -1,4 +1,4 @@
-package com.my.bookmart.Activities;
+package com.my.bookmart.intro;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -15,10 +15,11 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.my.bookmart.R;
+import com.my.bookmart.activities.MainActivity;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    private EditText email,fullname,password,confirmPassword;
+    private EditText email, fullname, password, confirmPassword;
     private String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+.[a-z]+";
     private Button joinBtn;
 
